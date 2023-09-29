@@ -12,7 +12,7 @@ android {
         minSdk = 26
         targetSdk = 33
         versionCode = 1
-        versionName = "1.0"
+        versionName = "0.1.0"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -70,8 +70,4 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
 //    implementation("androidx.compose.material:material-icons-extended:1.5.1")
-
-    //noinspection GradleCompatible
-//    compileOnly("com.google.android.support:wearable:2.9.0")
-    //noinspection GradleCompatible
 }
